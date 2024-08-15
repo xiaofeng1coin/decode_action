@@ -1,4 +1,4 @@
-//Thu Aug 15 2024 13:04:53 GMT+0000 (Coordinated Universal Time)
+//Thu Aug 15 2024 13:05:30 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 /**
@@ -45,7 +45,7 @@ function a0d(a, b) {
         }
         return q;
       };
-      a0d["VGhZUz"] = k, a = arguments, a0d["etUQxu"] = !![];
+      a0d["VGhZUz"] = k, a = arguments, a0d["etUQxu"] = true;
     }
     var h = c[0],
       i = d + h,
@@ -69,7 +69,7 @@ function a0d(a, b) {
             this["YpnbWj"]["push"](Math["round"](Math["random"]())), o = this["YpnbWj"]["length"];
           }
           return m(this["YpnbWj"][0]);
-        }, new l(a0d)["BYvWpI"](), a0d["ObgQVF"] = !![];
+        }, new l(a0d)["BYvWpI"](), a0d["ObgQVF"] = true;
       }
       f = a0d["VGhZUz"](f, e), a[i] = f;
     } else f = j;
@@ -80,7 +80,7 @@ function a0d(a, b) {
   var bl = a0d,
     bk = a0e,
     c = a();
-  while (!![]) {
+  while (true) {
     try {
       var d = parseInt(bk(2277)) / 1 + parseInt(bl(1105, "22MS")) / 2 + parseInt(bk(1781)) / 3 + -parseInt(bl(2712, "xS#H")) / 4 * (parseInt(bl(1375, "22MS")) / 5) + -parseInt(bk(2801)) / 6 * (-parseInt(bk(2467)) / 7) + -parseInt(bl(1099, "quDU")) / 8 * (-parseInt(bl(1013, "fWEB")) / 9) + -parseInt(bl(2369, "MrL5")) / 10;
       if (d === b) break;else c["push"](c["shift"]());
@@ -130,7 +130,7 @@ var a0as = function () {
         "xdrnQ": bn(872),
         "GZHXL": bn(1957)
       },
-      b = !![];
+      b = true;
     return function (c, d) {
       var bp = bn,
         bo = bm;
@@ -147,11 +147,11 @@ var a0as = function () {
             }
           }
         } : function () {};
-        return b = ![], e;
+        return b = false, e;
       } else {
         var g = a[bo(1924, "Rsz&")][bp(1118)]("|"),
           h = 0;
-        while (!![]) {
+        while (true) {
           switch (g[h++]) {
             case "0":
               var i = M[bo(1294, "Gc$u")],
@@ -204,7 +204,7 @@ function a0e(a, b) {
         }
         return decodeURIComponent(o);
       };
-      a0e["GoBIub"] = g, a = arguments, a0e["jPQkzs"] = !![];
+      a0e["GoBIub"] = g, a = arguments, a0e["jPQkzs"] = true;
     }
     var h = c[0],
       i = d + h,
@@ -949,7 +949,7 @@ a0at(), (() => {
             return s = null, a1;
           }
         } : function () {};
-        return l = ![], a0;
+        return l = false, a0;
       } else return Y && a[bB(963)] == typeof Symbol && Y[bB(880) + "r"] === Symbol && Y !== Symbol[bA(654, "akNW")] ? bB(539) : typeof Y;
     }, b(V);else V[bw(1403, "Vhj8")] = f, a[bx(3231)](g, h);
   }
@@ -1009,8 +1009,8 @@ a0at(), (() => {
                     bL = bD;
                   if (a[bL(3018, "fWEB")](a[bM(2231)], bL(952, "N)hq"))) {
                     var a5 = {};
-                    return a5[bL(650, "q&7U")] = !0, a[bM(575)](Z, V[bM(2148)]) ? a5 : {
-                      "done": !1,
+                    return a5[bL(650, "q&7U")] = true, a[bM(575)](Z, V[bM(2148)]) ? a5 : {
+                      "done": false,
                       "value": V[Z++]
                     };
                   } else a5 = function (a7, a8, a9) {
@@ -1029,8 +1029,8 @@ a0at(), (() => {
         } else V(a[bD(1661, "b1()")], f, g, h);
       }
       var a1,
-        a2 = !0,
-        a3 = !1;
+        a2 = true,
+        a3 = false;
       return {
         "s": function () {
           var bP = bH,
@@ -1051,7 +1051,7 @@ a0at(), (() => {
         "e": function (a6) {
           var bT = bH,
             bS = bD;
-          if (X[bS(3206, "i&rR")] !== bS(1932, "EYNe")) a3 = !0, a1 = a6;else return b[bT(2057)](this, arguments);
+          if (X[bS(3206, "i&rR")] !== bS(1932, "EYNe")) a3 = true, a1 = a6;else return b[bT(2057)](this, arguments);
         },
         "f": function () {
           var bW = bH,
@@ -1088,7 +1088,7 @@ a0at(), (() => {
               if (a3) throw a1;
             } else {
               var aa = {};
-              aa[bW(2794)] = X[bW(2392)], (this[bW(3299)] = [aa], a2[bW(1188)](d, this), this[bU(1603, "FtCU")](!0));
+              aa[bW(2794)] = X[bW(2392)], (this[bW(3299)] = [aa], a2[bW(1188)](d, this), this[bU(1603, "FtCU")](true));
             }
           }
         }
@@ -1118,9 +1118,9 @@ a0at(), (() => {
       }
     } else {
       var a1 = {};
-      a1[bY(859, "Q*29")] = !0;
+      a1[bY(859, "Q*29")] = true;
       var a2 = {};
-      return a2[bY(2332, "n0)2")] = !1, a2[bZ(1808)] = g[h++], X[bY(634, "u[ST")](V, f[bZ(2148)]) ? a1 : a2;
+      return a2[bY(2332, "n0)2")] = false, a2[bZ(1808)] = g[h++], X[bY(634, "u[ST")](V, f[bZ(2148)]) ? a1 : a2;
     }
   }
   function f(V, W) {
@@ -1425,11 +1425,11 @@ a0at(), (() => {
           }
         };
       if (V[cO(1532, "akNW")] === V[cP(507)]) {
-        for (; av[cO(2378, "22MS")](++a0, a7[cO(774, "MrL5")]);) if (q[cO(3010, "quDU")](Z, a4)) return at[cP(1808)] = a5[ag], ai[cO(1235, "60bW")] = !1, af;
-        return ad[cP(1808)] = z, al[cO(2295, "quDU")] = !0, B;
+        for (; av[cO(2378, "22MS")](++a0, a7[cO(774, "MrL5")]);) if (q[cO(3010, "quDU")](Z, a4)) return at[cP(1808)] = a5[ag], ai[cO(1235, "60bW")] = false, af;
+        return ad[cP(1808)] = z, al[cO(2295, "quDU")] = true, B;
       } else {
         var aw = {};
-        return aw[cO(1396, "WHSG")] = au, aw[cO(976, "6pT)")] = !0, aw[cP(2311) + "le"] = !0, aw[cP(744)] = !0, (Object[cP(2976) + cP(3204)](as, at, aw), as[at]);
+        return aw[cO(1396, "WHSG")] = au, aw[cO(976, "6pT)")] = true, aw[cP(2311) + "le"] = true, aw[cP(744)] = true, (Object[cP(2976) + cP(3204)](as, at, aw), as[at]);
       }
     }
     try {
@@ -1570,7 +1570,7 @@ a0at(), (() => {
             var aD = this[db(1278, "Gva%")][aC];
             if (aD[db(1538, "22MS")] === ac) return this[db(719, "&TTu")](aD[db(1600, "VkMC")], aD[db(1852, "2KnP")]), aa(aD), a3;
           } else return this[db(1780, "6pT)")](ay, aA);
-        }) : (a9 = !0, av = a8);
+        }) : (a9 = true, av = a8);
       });
     }
     function al(av, aw) {
@@ -1684,7 +1684,7 @@ a0at(), (() => {
         };
       if (V[dg(2052, "N)hq")](V[dc(2954)], dc(949))) {
         var aA = a8[dc(1412)]();
-        if (ax[dg(3298, "Vv&k")](aA, ac)) return aa[dg(2579, "fvCC")] = aA, a3[dg(1735, "fWEB")] = !1, j;
+        if (ax[dg(3298, "Vv&k")](aA, ac)) return aa[dg(2579, "fvCC")] = aA, a3[dg(1735, "fWEB")] = false, j;
       } else {
         function aA(aB, aC, aD, aE) {
           var dt = dc,
@@ -1786,8 +1786,8 @@ a0at(), (() => {
                       aO = function aP() {
                         var dL = a0d,
                           dK = dJ;
-                        for (; aL[dK(1102)](++aN, aN[dL(2678, "8TKo")]);) if (aO[dK(3237)](aP, aN)) return aP[dK(1808)] = aG[aN], aP[dK(2368)] = !1, aP;
-                        return aP[dK(1808)] = aw, aP[dK(2368)] = !0, aP;
+                        for (; aL[dK(1102)](++aN, aN[dL(2678, "8TKo")]);) if (aO[dK(3237)](aP, aN)) return aP[dK(1808)] = aG[aN], aP[dK(2368)] = false, aP;
+                        return aP[dK(1808)] = aw, aP[dK(2368)] = true, aP;
                       };
                     return aO[dJ(2268)] = aO;
                   } else aH[dM(759, "n0)2")] = aJ, ax[dJ(808)](aD, aH);
@@ -1798,11 +1798,11 @@ a0at(), (() => {
                     var aL = Z[dO(3113, "mQ[t")](aL, aF[dN(590)]),
                       aM = aw[dO(3033, "acF4")](aM, dO(2771, "quDU"));
                     if (aF[dN(1825)](aL, aM)) {
-                      if (aF[dN(2478)](this[dN(1621)], aj[dN(1274)])) return aF[dO(2640, "Gva%")](J, K[dO(1142, "fvCC")], !0);
+                      if (aF[dN(2478)](this[dN(1621)], aj[dN(1274)])) return aF[dO(2640, "Gva%")](J, K[dO(1142, "fvCC")], true);
                       if (aF[dO(492, "Ej#)")](this[dN(1621)], L[dN(1947)])) return aF[dN(815)](M, N[dN(1947)]);
                     } else {
                       if (aL) {
-                        if (aF[dN(1998)](this[dO(2800, "mQ[t")], O[dO(3190, "Gva%")])) return P(Q[dN(1274)], !0);
+                        if (aF[dN(1998)](this[dO(2800, "mQ[t")], O[dO(3190, "Gva%")])) return P(Q[dN(1274)], true);
                       } else {
                         if (!aM) throw aF[dO(2013, "8TKo")](aq, dO(2078, "8TKo") + dO(1784, "2KnP") + dO(1361, "55kw") + dN(529));
                         if (aF[dO(705, "c4jp")](this[dO(2616, "Rsz&")], an[dN(1947)])) return aF[dN(815)](ao, U[dO(2153, "Gc$u")]);
@@ -1853,7 +1853,7 @@ a0at(), (() => {
                     dV = a0e;
                   if (aD[dV(2870)](aD[dV(1447)], aD[dW(1745, "FtCU")])) {
                     var aI = {};
-                    return aI[dW(783, "xS#H")] = aI, aI[dW(1066, "quDU")] = !0, aI[dV(2311) + "le"] = !0, aI[dW(1970, "kN#6")] = !0, (ac[dV(2976) + dV(3204)](aa, a3, aI), ak[a6]);
+                    return aI[dW(783, "xS#H")] = aI, aI[dW(1066, "quDU")] = true, aI[dV(2311) + "le"] = true, aI[dW(1970, "kN#6")] = true, (ac[dV(2976) + dV(3204)](aa, a3, aI), ak[a6]);
                   } else aD[dW(2113, "22MS")](aA, aB, aC, aF, aG);
                 });else {
                   var aG = this[dU(1582, "sH&m")][a9];
@@ -2033,7 +2033,7 @@ a0at(), (() => {
               } else {
                 if (ay[ed(1109)](ay[ef(1372, "mQ[t")], aA)) throw aB;
                 var aD = {};
-                return aD[ed(1808)] = W, aD[ed(2368)] = !0, aD;
+                return aD[ed(1808)] = W, aD[ed(2368)] = true, aD;
               }
             }
             for (ax[ed(1785)] = aA, ax[ed(810)] = aB;;) {
@@ -2073,7 +2073,7 @@ a0at(), (() => {
                     var aH = {};
                     return aH[ef(2638, "EMDs")] = aG[ef(543, "5cU]")], aH[ed(2368)] = ax[ed(2368)], aH;
                   } else {
-                    if (this[ef(2800, "mQ[t")] = 0, this[ed(2268)] = 0, this[ef(1314, "b1()")] = this[ef(519, "MrL5")] = aa, this[ed(2368)] = !1, this[ef(1039, "u[ST")] = null, this[ed(1785)] = ed(2268), this[ef(2342, "e(!]")] = aE, this[ed(3299)][ef(2921, "V*pC")](aD), !ak) {
+                    if (this[ef(2800, "mQ[t")] = 0, this[ed(2268)] = 0, this[ef(1314, "b1()")] = this[ef(519, "MrL5")] = aa, this[ed(2368)] = false, this[ef(1039, "u[ST")] = null, this[ed(1785)] = ed(2268), this[ef(2342, "e(!]")] = aE, this[ed(3299)][ef(2921, "V*pC")](aD), !ak) {
                       for (var aO in this) "t" === aO[ef(1833, "rB*#")](0) && a6[ed(3237)](this, aO) && !ab(+aO[ef(2764, "n0)2")](1)) && (this[aO] = aO);
                     }
                   }
@@ -2104,7 +2104,7 @@ a0at(), (() => {
       if (V[el(2064, "rn]*")](V[em(908)], V[em(2020)])) {
         var ax = V[el(718, "E[35")][em(1118)]("|"),
           ay = 0;
-        while (!![]) {
+        while (true) {
           switch (ax[ay++]) {
             case "0":
               var az = aw[em(1785)],
@@ -2169,7 +2169,7 @@ a0at(), (() => {
       } else {
         var az = aw[er(2250, "EMDs")][eq(1118)]("|"),
           aA = 0;
-        while (!![]) {
+        while (true) {
           switch (az[aA++]) {
             case "0":
               var aB = aw[er(2187, "rn]*")](aB),
@@ -2220,11 +2220,11 @@ a0at(), (() => {
           }
         };
       if (a[ew(903)](ew(1701), a[ew(1508)])) {
-        if (aw[ew(770)](this[ex(2136, "]#n[")], ac[ex(2305, "*F@P")])) return aw[ex(2585, "60bW")](aa, a3[ew(1274)], !0);
+        if (aw[ew(770)](this[ex(2136, "]#n[")], ac[ex(2305, "*F@P")])) return aw[ex(2585, "60bW")](aa, a3[ew(1274)], true);
         if (aw[ew(2971)](this[ex(1839, "Ej#)")], ax[ew(1947)])) return aw[ex(838, "*F@P")](ak, a6[ex(2684, "jKx!")]);
       } else {
         var ax = {};
-        ax[ex(2748, "55kw")] = a[ex(2127, "Gc$u")], (this[ex(2886, "fWEB")] = [ax], av[ew(1188)](ao, this), this[ew(1768)](!0));
+        ax[ex(2748, "55kw")] = a[ex(2127, "Gc$u")], (this[ex(2886, "fWEB")] = [ax], av[ew(1188)](ao, this), this[ew(1768)](true));
       }
     }
     function ar(av) {
@@ -2277,8 +2277,8 @@ a0at(), (() => {
               aE = function aF() {
                 var eG = eD,
                   eF = eA;
-                for (; aB[eF(1990, "i&rR")](++aD, aC[eF(2341, "E[35")]);) if (aD[eF(1091, "Q*29")](aE, aD)) return aF[eF(1950, "6pT)")] = aF[aD], aF[eG(2368)] = !1, aF;
-                return aF[eG(1808)] = a8, aF[eG(2368)] = !0, aF;
+                for (; aB[eF(1990, "i&rR")](++aD, aC[eF(2341, "E[35")]);) if (aD[eF(1091, "Q*29")](aE, aD)) return aF[eF(1950, "6pT)")] = aF[aD], aF[eG(2368)] = false, aF;
+                return aF[eG(1808)] = a8, aF[eG(2368)] = true, aF;
               };
             return aE[eA(1925, "rn]*")] = aE;
           }
@@ -2303,13 +2303,13 @@ a0at(), (() => {
                         }
                       };
                     if (aw[eI(1769)](aw[eI(2738)], aw[eJ(2523, "Rsz&")])) {
-                      this[eI(2368)] = !0;
+                      this[eI(2368)] = true;
                       var aF = this[eI(3299)][0][eJ(1787, "E[35")];
                       if (aD[eJ(813, "MrL5")](eI(957), aF[eI(663)])) throw aF[eJ(1695, "q&7U")];
                       return this[eI(799)];
                     } else {
-                      for (; aw[eJ(1711, "MrL5")](++ay, av[eJ(904, "]#n[")]);) if (Z[eJ(3194, "6pT)")](av, ay)) return aC[eI(1808)] = av[ay], aC[eI(2368)] = !1, aC;
-                      return aC[eJ(2805, "Q*29")] = W, aC[eI(2368)] = !0, aC;
+                      for (; aw[eJ(1711, "MrL5")](++ay, av[eJ(904, "]#n[")]);) if (Z[eJ(3194, "6pT)")](av, ay)) return aC[eI(1808)] = av[ay], aC[eI(2368)] = false, aC;
+                      return aC[eJ(2805, "Q*29")] = W, aC[eI(2368)] = true, aC;
                     }
                   };
                 return az[eD(2268)] = az;
@@ -2330,10 +2330,10 @@ a0at(), (() => {
     }
     return ae[c4(617, "i&rR")] = af, a[c4(1496, "sH&m")](a0, aj, a[c4(2816, "n0)2")], {
       "value": af,
-      "configurable": !0
+      "configurable": true
     }), a0(af, a[c4(2630, "u[ST")], {
       "value": ae,
-      "configurable": !0
+      "configurable": true
     }), ae[c2(3089) + "e"] = a[c4(2674, "quDU")](a5, af, a4, a[c4(595, "acF4")]), X[c4(2876, "60bW") + c4(730, "oBOo")] = function (av) {
       var eL = c4,
         eK = c2,
@@ -2418,8 +2418,8 @@ a0at(), (() => {
                 aI = function aJ() {
                   var f4 = f1,
                     f3 = f2;
-                  for (; aE[f3(1664, "oBOo")](++aH, aG[f4(2148)]);) if (aH[f3(2214, "akNW")](aI, aH)) return aJ[f4(1808)] = aJ[aH], aJ[f4(2368)] = !1, aJ;
-                  return aJ[f3(1174, "N)hq")] = M, aJ[f4(2368)] = !0, aJ;
+                  for (; aE[f3(1664, "oBOo")](++aH, aG[f4(2148)]);) if (aH[f3(2214, "akNW")](aI, aH)) return aJ[f4(1808)] = aJ[aH], aJ[f4(2368)] = false, aJ;
+                  return aJ[f3(1174, "N)hq")] = M, aJ[f4(2368)] = true, aJ;
                 };
               return aI[f2(693, "Gc$u")] = aI;
             }
@@ -2448,13 +2448,13 @@ a0at(), (() => {
             for (; ax[fc(2362, "jKx!")];) {
               if (V[fb(3046)](V[fb(603)], V[fb(2080)])) {
                 var aA = ax[fb(1412)]();
-                if (V[fc(1261, "6pT)")](aA, aw)) return az[fb(1808)] = aA, az[fb(2368)] = !1, az;
+                if (V[fc(1261, "6pT)")](aA, aw)) return az[fb(1808)] = aA, az[fb(2368)] = false, az;
               } else {
                 var aC = a9[fb(810)];
                 az(a8);
               }
             }
-            return az[fc(1358, "xS#H")] = !0, az;
+            return az[fc(1358, "xS#H")] = true, az;
           } else a9[fc(2271, "X)Qb")](az, a8);
         };
       } else {
@@ -2472,7 +2472,7 @@ a0at(), (() => {
         };
         var ax = aw;
         if (V[fe(3226)](V[fd(1244, "q&7U")], V[fe(1474)])) return W[a8[fe(2761)](ax[fd(1887, "sH&m")](ac[fe(3126)](), aa[fe(2148)]))];else {
-          if (this[fe(1621)] = 0, this[fe(2268)] = 0, this[fd(1788, "e(!]")] = this[fd(1335, "akNW")] = W, this[fd(1153, "N)hq")] = !1, this[fd(2966, "60bW")] = null, this[fe(1785)] = V[fe(1113)], this[fd(2619, "60bW")] = W, this[fe(3299)][fe(1188)](ap), !av) {
+          if (this[fe(1621)] = 0, this[fe(2268)] = 0, this[fd(1788, "e(!]")] = this[fd(1335, "akNW")] = W, this[fd(1153, "N)hq")] = false, this[fd(2966, "60bW")] = null, this[fe(1785)] = V[fe(1113)], this[fd(2619, "60bW")] = W, this[fe(3299)][fe(1188)](ap), !av) {
             for (var ay in this) V[fe(3183)]("t", ay[fd(3275, "VkMC")](0)) && Z[fd(1218, "&TTu")](this, ay) && !V[fd(798, "WHSG")](isNaN, +ay[fd(556, "55kw")](1)) && (this[ay] = W);
           }
         }
@@ -2481,7 +2481,7 @@ a0at(), (() => {
         var fg = c2,
           ff = c4;
         if (a[ff(1430, "EYNe")](a[ff(3191, "rn]*")], a[ff(1468, "&TTu")])) {
-          this[ff(835, "Ej#)")] = !0;
+          this[ff(835, "Ej#)")] = true;
           var av = this[fg(3299)][0][ff(2030, "WHSG")];
           if (a[ff(599, "h*BV")](a[fg(1017)], av[fg(663)])) throw av[fg(810)];
           return this[ff(2055, "e(!]")];
@@ -2531,19 +2531,19 @@ a0at(), (() => {
               if (a[fh(2114, "55kw")](a[fk(968)], az[fh(1321, "xS#H")])) return a[fk(679)](aE, fh(3262, "Gc$u"));
               if (a[fk(2245)](az[fh(2957, "q&7U")], this[fk(1621)])) {
                 if (a[fk(1709)](fk(2035), a[fh(1364, "Q*29")])) {
-                  if (V[fk(1179)](this[fh(2553, "h*BV")], a9[fh(1419, "c4jp")])) return V[fk(2747)](W, a8[fk(1274)], !0);
+                  if (V[fk(1179)](this[fh(2553, "h*BV")], a9[fh(1419, "c4jp")])) return V[fk(2747)](W, a8[fk(1274)], true);
                 } else {
                   var aB = Z[fk(3237)](az, a[fk(2560)]),
                     aC = Z[fk(3237)](az, a[fk(1301)]);
                   if (a[fh(1222, "8TKo")](aB, aC)) {
                     if (a[fh(641, "Q*29")](a[fk(2852)], a[fk(1499)])) return ah[fk(2057)](this, arguments);else {
-                      if (a[fk(2045)](this[fk(1621)], az[fh(2305, "*F@P")])) return a[fh(2034, "q&7U")](aE, az[fh(2077, "n0)2")], !0);
+                      if (a[fk(2045)](this[fk(1621)], az[fh(2305, "*F@P")])) return a[fh(2034, "q&7U")](aE, az[fh(2077, "n0)2")], true);
                       if (a[fh(980, "jKx!")](this[fh(1946, "fWEB")], az[fk(1947)])) return aE(az[fk(1947)]);
                     }
                   } else {
                     if (aB) {
                       if (a[fh(2721, "5cU]")](a[fh(2646, "Vv&k")], a[fh(1092, "22MS")])) return ah[fk(2057)](this, arguments);else {
-                        if (this[fh(985, "60bW")] < az[fk(1274)]) return a[fh(1856, "quDU")](aE, az[fk(1274)], !0);
+                        if (this[fh(985, "60bW")] < az[fk(1274)]) return a[fh(1856, "quDU")](aE, az[fk(1274)], true);
                       }
                     } else {
                       if (a[fk(997)] === a[fh(2100, "FtCU")]) {
@@ -2640,9 +2640,9 @@ a0at(), (() => {
           if (a[fv(2008)](a[fv(1170)], a[fv(1170)])) {
             for (; a3[fw(2290, "rn]*")];) {
               var az = q[fw(2608, "&TTu")]();
-              if (V[fv(1988)](az, az)) return a4[fv(1808)] = az, aw[fv(2368)] = !1, a5;
+              if (V[fv(1988)](az, az)) return a4[fv(1808)] = az, aw[fv(2368)] = false, a5;
             }
-            return a0[fv(2368)] = !0, a7;
+            return a0[fv(2368)] = true, a7;
           } else {
             var ax = this[fv(3299)][aw];
             if (a[fw(1577, "22MS")](ax[fw(2684, "jKx!")], av)) return this[fw(1501, "Vhj8")](ax[fv(1485)], ax[fv(2038)]), a[fw(2102, "]#n[")](ap, ax), ac;
@@ -3379,7 +3379,7 @@ a0at(), (() => {
           case 135:
             return console[gy(515)](V[gy(2411)]), console[gw(2781, "Ej#)")](V[gw(2493, "EMDs")]), aL[gy(2268)] = 139, V[gw(916, "Vhj8")](E, V[gw(1623, "Ej#)")]);
           case 139:
-            return ar = aL[gw(3188, "Gc$u")], console[gy(515)](V[gy(1943)][gy(1436)](ar[gy(2006)][gy(1941) + "al"], "\u79EF\u5206")), console[gy(515)](V[gw(1193, "sH&m")]), console[gw(2304, "60bW")](V[gw(569, "Rsz&")]), as = !0, at = !0, au = !0, aL[gy(2268)] = 148, E(V[gw(743, "WHSG")]);
+            return ar = aL[gw(3188, "Gc$u")], console[gy(515)](V[gy(1943)][gy(1436)](ar[gy(2006)][gy(1941) + "al"], "\u79EF\u5206")), console[gy(515)](V[gw(1193, "sH&m")]), console[gw(2304, "60bW")](V[gw(569, "Rsz&")]), as = true, at = true, au = true, aL[gy(2268)] = 148, E(V[gw(743, "WHSG")]);
           case 148:
             av = aL[gw(1204, "sH&m")], aw = V[gy(491)](c, av[gw(3050, "2KnP")][gy(1313)]), aL[gy(1621)] = 150, aw["s"]();
           case 152:
@@ -3397,8 +3397,8 @@ a0at(), (() => {
                     var gJ = gw,
                       gI = gy,
                       b9 = {};
-                    return b9[gI(2368)] = !0, aM[gJ(2688, "xS#H")](b7, b7[gI(2148)]) ? b9 : {
-                      "done": !1,
+                    return b9[gI(2368)] = true, aM[gJ(2688, "xS#H")](b7, b7[gI(2148)]) ? b9 : {
+                      "done": false,
                       "value": b8[b7++]
                     };
                   },
@@ -3441,7 +3441,7 @@ a0at(), (() => {
             az++, aL[gy(2268)] = 161;
             break;
           case 169:
-            gw(975, "jpqv") == ay[gw(3245, "quDU")] && (as = !1), V[gy(2769)](V[gw(1560, "sH&m")], ay[gw(1747, "acF4")]) && (at = !1), gy(1112) == ay[gw(2430, "6pT)")] && (au = !1);
+            gw(975, "jpqv") == ay[gw(3245, "quDU")] && (as = false), V[gy(2769)](V[gw(1560, "sH&m")], ay[gw(1747, "acF4")]) && (at = false), gy(1112) == ay[gw(2430, "6pT)")] && (au = false);
           case 172:
             aL[gw(2232, "MrL5")] = 152;
             break;
@@ -3480,7 +3480,7 @@ a0at(), (() => {
               } else {
                 if (Y[gw(1775, "5cU]")](Y[gw(1868, "EMDs")], ab)) throw aL;
                 var bd = {};
-                return bd[gw(995, "jKx!")] = aa, bd[gw(1143, "5cU]")] = !0, bd;
+                return bd[gw(995, "jKx!")] = aa, bd[gw(1143, "5cU]")] = true, bd;
               }
             }
             return aL[gw(2808, "Ej#)")] = 195, E((gw(2213, "Q*29") + gy(2587) + gw(2850, "EYNe") + gw(1812, "h*BV") + "d=")[gy(1436)](aF, V[gw(2679, "xS#H")]));
@@ -3495,7 +3495,7 @@ a0at(), (() => {
             }
             return aL[gw(1362, "quDU")] = 200, V[gw(2984, "VkMC")](G, V[gw(2366, "VkMC")], V[gw(2770, "VkMC")][gy(1436)](aF));
           case 200:
-            aH = aL[gw(3188, "Gc$u")], aH[gy(2006)] ? (console[gy(515)](gy(2043)), V[gw(1533, "rn]*")](null, aI = aH[gw(621, "quDU")]) && void 0 !== aI && V[gy(1559)](null, aI = aI[gy(1276) + "fy"]) && V[gy(1239)](void 0, aI) && aI[gy(948)] && (at = !0)) : console[gw(541, "fvCC")](V[gy(1770)]);
+            aH = aL[gw(3188, "Gc$u")], aH[gy(2006)] ? (console[gy(515)](gy(2043)), V[gw(1533, "rn]*")](null, aI = aH[gw(621, "quDU")]) && void 0 !== aI && V[gy(1559)](null, aI = aI[gy(1276) + "fy"]) && V[gy(1239)](void 0, aI) && aI[gy(948)] && (at = true)) : console[gw(541, "fvCC")](V[gy(1770)]);
           case 202:
             if (au) {
               if (V[gw(1212, "Rsz&")](gy(704), V[gw(839, "mQ[t")])) {
@@ -3507,9 +3507,9 @@ a0at(), (() => {
                     gK = gy;
                   for (; bg[gK(2148)];) {
                     var bj = bg[gL(901, "Vv&k")]();
-                    if (aM[gL(2352, "5cU]")](bj, bf)) return bi[gL(759, "n0)2")] = bj, bi[gK(2368)] = !1, bi;
+                    if (aM[gL(2352, "5cU]")](bj, bf)) return bi[gL(759, "n0)2")] = bj, bi[gK(2368)] = false, bi;
                   }
-                  return bi[gL(2845, "Vhj8")] = !0, bi;
+                  return bi[gL(2845, "Vhj8")] = true, bi;
                 };
               } else {
                 aL[gy(2268)] = 207;
@@ -3518,7 +3518,7 @@ a0at(), (() => {
             }
             return aL[gw(1989, "acF4")] = 205, V[gw(1415, "E[35")](G, V[gw(864, "6pT)")], V[gy(681)][gw(925, "jKx!")](aF));
           case 205:
-            aJ = aL[gw(2027, "55kw")], aJ[gw(2744, "e(!]")] ? (console[gw(1778, "8TKo")](V[gy(1103)]), V[gw(1214, "jpqv")](null, aK = aJ[gw(1216, "Q*29")]) && void 0 !== aK && V[gw(2533, "MrL5")](null, aK = aK[gw(2150, "6pT)") + "fy"]) && V[gy(1257)](void 0, aK) && aK[gy(948)] && (au = !0)) : console[gw(1199, "VkMC")](V[gy(2343)]);
+            aJ = aL[gw(2027, "55kw")], aJ[gw(2744, "e(!]")] ? (console[gw(1778, "8TKo")](V[gy(1103)]), V[gw(1214, "jpqv")](null, aK = aJ[gw(1216, "Q*29")]) && void 0 !== aK && V[gw(2533, "MrL5")](null, aK = aK[gw(2150, "6pT)") + "fy"]) && V[gy(1257)](void 0, aK) && aK[gy(948)] && (au = true)) : console[gw(1199, "VkMC")](V[gy(2343)]);
           case 207:
             aL[gw(2765, "h*BV")] = 189;
             break;
@@ -4305,7 +4305,7 @@ a0at(), (() => {
       iN = bv,
       V = a[iN(2217)][iO(1576, "c4jp")]("|"),
       W = 0;
-    while (!![]) {
+    while (true) {
       switch (V[W++]) {
         case "0":
           var X = {};
@@ -4583,7 +4583,7 @@ function Env(t, e) {
         info: "[INFO] ",
         warn: "[WARN] ",
         error: "[ERROR] "
-      }, this.logLevel = "info", this.name = t, this.http = new s(this), this.data = null, this.dataFile = "box.dat", this.logs = [], this.isMute = !1, this.isNeedRewrite = !1, this.logSeparator = "\n", this.encoding = "utf-8", this.startTime = new Date().getTime(), Object.assign(this, e), this.log("", `🔔${this.name}, 开始!`);
+      }, this.logLevel = "info", this.name = t, this.http = new s(this), this.data = null, this.dataFile = "box.dat", this.logs = [], this.isMute = false, this.isNeedRewrite = false, this.logSeparator = "\n", this.encoding = "utf-8", this.startTime = new Date().getTime(), Object.assign(this, e), this.log("", `🔔${this.name}, 开始!`);
     }
     getEnv() {
       return "undefined" != typeof $environment && $environment["surge-version"] ? "Surge" : "undefined" != typeof $environment && $environment["stash-version"] ? "Stash" : "undefined" != typeof module && module.exports ? "Node.js" : "undefined" != typeof $task ? "Quantumult X" : "undefined" != typeof $loon ? "Loon" : "undefined" != typeof $rocket ? "Shadowrocket" : void 0;
@@ -4631,7 +4631,7 @@ function Env(t, e) {
       try {
         return this.setdata(JSON.stringify(t), e);
       } catch {
-        return !1;
+        return false;
       }
     }
     getScript(t) {
@@ -4718,7 +4718,7 @@ function Env(t, e) {
       return e;
     }
     setdata(t, e) {
-      let s = !1;
+      let s = false;
       if (/^@/.test(e)) {
         const [, i, o] = /^@(.*?)\.(.*?)$/.exec(e),
           r = this.getval(i),
@@ -4758,7 +4758,7 @@ function Env(t, e) {
         case "Quantumult X":
           return $prefs.setValueForKey(t, e);
         case "Node.js":
-          return this.data = this.loaddata(), this.data[e] = t, this.writedata(), !0;
+          return this.data = this.loaddata(), this.data[e] = t, this.writedata(), true;
         default:
           return this.data && this.data[e] || null;
       }
@@ -4767,8 +4767,8 @@ function Env(t, e) {
       this.got = this.got ? this.got : require("got"), this.cktough = this.cktough ? this.cktough : require("tough-cookie"), this.ckjar = this.ckjar ? this.ckjar : new this.cktough.CookieJar(), t && (t.headers = t.headers ? t.headers : {}, t && (t.headers = t.headers ? t.headers : {}, void 0 === t.headers.cookie && void 0 === t.headers.Cookie && void 0 === t.cookieJar && (t.cookieJar = this.ckjar)));
     }
     get(t, e = () => {}) {
-      switch (t.headers && (delete t.headers["Content-Type"], delete t.headers["Content-Length"], delete t.headers["content-type"], delete t.headers["content-length"]), t.params && (t.url += "?" + this.queryStr(t.params)), void 0 === t.followRedirect || t.followRedirect || ((this.isSurge() || this.isLoon()) && (t["auto-redirect"] = !1), this.isQuanX() && (t.opts ? t.opts.redirection = !1 : t.opts = {
-        redirection: !1
+      switch (t.headers && (delete t.headers["Content-Type"], delete t.headers["Content-Length"], delete t.headers["content-type"], delete t.headers["content-length"]), t.params && (t.url += "?" + this.queryStr(t.params)), void 0 === t.followRedirect || t.followRedirect || ((this.isSurge() || this.isLoon()) && (t["auto-redirect"] = false), this.isQuanX() && (t.opts ? t.opts.redirection = false : t.opts = {
+        redirection: false
       })), this.getEnv()) {
         case "Surge":
         case "Loon":
@@ -4776,14 +4776,14 @@ function Env(t, e) {
         case "Shadowrocket":
         default:
           this.isSurge() && this.isNeedRewrite && (t.headers = t.headers || {}, Object.assign(t.headers, {
-            "X-Surge-Skip-Scripting": !1
+            "X-Surge-Skip-Scripting": false
           })), $httpClient.get(t, (t, s, i) => {
             !t && s && (s.body = i, s.statusCode = s.status ? s.status : s.statusCode, s.status = s.statusCode), e(t, s, i);
           });
           break;
         case "Quantumult X":
           this.isNeedRewrite && (t.opts = t.opts || {}, Object.assign(t.opts, {
-            hints: !1
+            hints: false
           })), $task.fetch(t).then(t => {
             const {
               statusCode: s,
@@ -4839,8 +4839,8 @@ function Env(t, e) {
     }
     post(t, e = () => {}) {
       const s = t.method ? t.method.toLocaleLowerCase() : "post";
-      switch (t.body && t.headers && !t.headers["Content-Type"] && !t.headers["content-type"] && (t.headers["content-type"] = "application/x-www-form-urlencoded"), t.headers && (delete t.headers["Content-Length"], delete t.headers["content-length"]), void 0 === t.followRedirect || t.followRedirect || ((this.isSurge() || this.isLoon()) && (t["auto-redirect"] = !1), this.isQuanX() && (t.opts ? t.opts.redirection = !1 : t.opts = {
-        redirection: !1
+      switch (t.body && t.headers && !t.headers["Content-Type"] && !t.headers["content-type"] && (t.headers["content-type"] = "application/x-www-form-urlencoded"), t.headers && (delete t.headers["Content-Length"], delete t.headers["content-length"]), void 0 === t.followRedirect || t.followRedirect || ((this.isSurge() || this.isLoon()) && (t["auto-redirect"] = false), this.isQuanX() && (t.opts ? t.opts.redirection = false : t.opts = {
+        redirection: false
       })), this.getEnv()) {
         case "Surge":
         case "Loon":
@@ -4848,14 +4848,14 @@ function Env(t, e) {
         case "Shadowrocket":
         default:
           this.isSurge() && this.isNeedRewrite && (t.headers = t.headers || {}, Object.assign(t.headers, {
-            "X-Surge-Skip-Scripting": !1
+            "X-Surge-Skip-Scripting": false
           })), $httpClient[s](t, (t, s, i) => {
             !t && s && (s.body = i, s.statusCode = s.status ? s.status : s.statusCode, s.status = s.statusCode), e(t, s, i);
           });
           break;
         case "Quantumult X":
           t.method = s, this.isNeedRewrite && (t.opts = t.opts || {}, Object.assign(t.opts, {
-            hints: !1
+            hints: false
           })), $task.fetch(t).then(t => {
             const {
               statusCode: s,
