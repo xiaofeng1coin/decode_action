@@ -1,34 +1,37 @@
 name: Build lxml for ARM32  
-
+  
 on: [push]  
-
+  
 jobs:  
   build:  
     runs-on: ubuntu-latest  
-
+  
     steps:  
     - name: Checkout repository  
       uses: actions/checkout@v2  
-
+  
     - name: Set up Docker Buildx  
       id: buildx  
       uses: docker/setup-buildx-action@v1  
-
-    - name: Login to DockerHub (if needed)  
-      # Uncomment and configure if you need to push images to DockerHub  
-      # run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin  
-
+  
+    # Optional: Login to DockerHub if needed  
+    # - name: Login to DockerHub  
+    #   run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin  
+  
     - name: Build Docker image  
       run: docker build --platform linux/arm/v7 -t arm32-python311:latest .  
-
+  
+    - name: Prepare wheels directory on host  
+      run: mkdir -p wheels  
+  
     - name: Run Docker container  
       run: |  
-        docker run --rm -v $(pwd):/app arm32-python311:latest bash -c " \  
+        docker run --rm -v $(pwd)/wheels:/app/wheels arm32-python311:latest bash -c " \  
           pip install --upgrade pip cython && \  
           pip wheel lxml --wheel-dir=/app/wheels && \  
-          ls -l /app/wheels  
+          ls -l /app/wheels \  
         "  
-
+  
     - name: Upload wheels  
       uses: actions/upload-artifact@v2  
       with:  
