@@ -33,7 +33,7 @@ jobs:
         "  
   
     - name: Upload wheels  
-      uses: actions/upload-artifact@latest  
+      uses: actions/upload-artifact@v3  
       with:  
         name: lxml-wheels  
         path: wheels/
