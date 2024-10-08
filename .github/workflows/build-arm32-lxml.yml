@@ -10,40 +10,48 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        architecture: [armv7]  # ARM32架构
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v2
 
-      - name: Install build dependencies
+      - name: Build lxml wheel in ARM32 emulation
         run: |
-          sudo apt-get update
-          sudo apt-get install -y \
+          docker run --rm --platform linux/arm/v7 -v ${{ github.workspace }}:/workspace -w /workspace python:3.11-buster /bin/bash -c "
+          apt-get update && \
+          apt-get install -y \
           build-essential \
           libxml2-dev \
           libxslt1-dev \
-          zlib1g-dev \
-          python3-dev
-
-      - name: Install lxml
-        run: |
-          pip install lxml --no-binary lxml
-
-      - name: Build lxml wheel
-        run: |
-          mkdir -p wheelhouse
+          zlib1g-dev && \
+          pip install lxml --no-binary lxml && \
+          mkdir -p wheelhouse && \
           pip wheel lxml -w wheelhouse
+          "
 
       - name: Upload wheel
         uses: actions/upload-artifact@v3
         with:
           name: lxml-wheel
           path: wheelhouse/*.whl
+
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v1.0.0 # 更改为你想要的版本号
+          release_name: "Release v1.0.0" # 更改为你想要的发布名称
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Wheel to Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v1.0.0 # 确保与上面相同
+          files: wheelhouse/*.whl
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHU_TOKEN }}
